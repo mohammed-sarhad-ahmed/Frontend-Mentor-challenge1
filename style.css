@@ -40,12 +40,12 @@ body {
   border-radius: 50%;
   background-color: hsla(256, 72%, 46%, 1);
   border: solid 1px hsl(241, 81%, 54%);
-  width: 33%;
-  min-height: 15vh;
+  height: 7rem;
+  width: 7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: center;
 }
 .result {
   font-size: 1em;
