@@ -74,7 +74,7 @@ body {
   align-items: flex-start;
   display: flex;
   align-content: flex-start;
-  justify-content: space-around;
+  justify-content: space-evenly;
   flex-direction: column;
 }
 
@@ -154,10 +154,13 @@ h3 {
     align-items: start;
     margin-left: 2rem;
   }
-  .card {
+  .card,
+  #Continue {
     width: 80%;
+    min-height: 3vh;
+    margin-left: 0%;
   }
   #Continue {
-    margin-left: 0%;
+    margin-left: 1em;
   }
 }
