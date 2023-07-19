@@ -66,6 +66,7 @@ body {
 #paragraph {
   max-width: 25ch;
   text-align: center;
+  color: rgb(223, 223, 223);
 }
 
 .cardComponent {
