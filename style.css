@@ -48,7 +48,7 @@ body {
   justify-content: center;
 }
 .result {
-  font-size: 1em;
+  font-size: 1.7em;
   color: hsla(0, 2%, 76%);
 }
 #bignumber {
@@ -61,7 +61,7 @@ body {
 }
 #Great {
   color: white;
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 #paragraph {
   max-width: 25ch;
