@@ -40,8 +40,8 @@ body {
   border-radius: 50%;
   background-color: hsla(256, 72%, 46%, 1);
   border: solid 1px hsl(241, 81%, 54%);
-  height: 7rem;
-  width: 7rem;
+  height: 12rem;
+  width: 12rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -118,7 +118,7 @@ body {
 }
 #Continue {
   background-color: rgb(1, 1, 45);
-  width: 90%;
+  width: 80%;
   min-height: 8vh;
   border-radius: 30px;
   color: white;
@@ -135,8 +135,8 @@ h3 {
 @media only screen and (min-width: 600px) {
   .main_components {
     flex-direction: row;
-    width: 40%;
-    margin-top: 10%;
+    width: 60%;
+    margin-top: 15%;
     justify-content: center;
     background-color: white;
     border-radius: 20px;
