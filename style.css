@@ -48,7 +48,7 @@ body {
   justify-content: center;
 }
 .result {
-  font-size: 1.7em;
+  font-size: 1.3em;
   color: hsla(0, 2%, 76%);
 }
 #bignumber {
@@ -60,6 +60,7 @@ body {
   font-size: 1.3rem;
 }
 #Great {
+  margin-top: 0.3rem;
   color: white;
   font-size: 2rem;
 }
@@ -141,6 +142,7 @@ h3 {
     justify-content: center;
     background-color: white;
     border-radius: 20px;
+    height: 60vh;
   }
   .cardComponent,
   .Score-Companent {
