@@ -133,20 +133,21 @@ h3 {
 @media only screen and (min-width: 600px) {
   .main_components {
     flex-direction: row;
-    width: 60%;
+    width: 40%;
     margin-top: 10%;
     justify-content: center;
     background-color: white;
     border-radius: 20px;
+    height: 50vh;
   }
   .cardComponent,
   .Score-Companent {
     border-radius: 20px;
-    min-height: 60vh;
+    min-height: 100%;
     width: 50%;
   }
   .cardComponent {
-    background-color: azure;
+    background-color: white;
     border-bottom-left-radius: 0%;
     align-items: center;
   }
