@@ -118,7 +118,7 @@ body {
 }
 #Continue {
   background-color: rgb(1, 1, 45);
-  width: 80%;
+  width: 90%;
   min-height: 8vh;
   border-radius: 30px;
   color: white;
@@ -151,7 +151,8 @@ h3 {
   .cardComponent {
     background-color: white;
     border-bottom-left-radius: 0%;
-    align-items: center;
+    align-items: start;
+    margin-left: 2rem;
   }
   .card {
     width: 80%;
