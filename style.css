@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  font-family: "Hanken Grotesk", sans-serif;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(233, 232, 232);
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  margin-bottom: 2em;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+.main_components {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+.Score-Companent {
+  background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  border-radius: 0 0 1rem 1rem;
+  min-height: 40vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: hsla(256, 72%, 46%, 1);
+  border: solid 1px hsl(241, 81%, 54%);
+  width: 33%;
+  min-height: 15vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.result {
+  font-size: 1em;
+  color: hsla(0, 2%, 76%);
+}
+#bignumber {
+  font-size: 3rem;
+  color: white;
+}
+.hundred {
+  color: rgb(136, 135, 135);
+  font-size: 1.3rem;
+}
+#Great {
+  color: white;
+  font-size: 1.5rem;
+}
+#paragraph {
+  max-width: 30ch;
+}
+.cardComponent {
+  min-height: 60vh;
+  width: 70%;
+  align-items: flex-start;
+  display: flex;
+  align-content: flex-start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.card {
+  width: 100%;
+  min-height: 8vh;
+  display: flex;
+  border-radius: 20px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem;
+}
+
+#reaction {
+  background-color: hsla(0, 84%, 83%, 0.2);
+}
+#Visual {
+  background-color: hsla(234, 85%, 45%, 0.2);
+}
+#Memory {
+  background-color: hsla(39, 100%, 56%, 0.2);
+}
+#verbal {
+  background-color: hsla(166, 100%, 37%, 0.2);
+}
+#span-text-recation {
+  color: hsl(0, 100%, 67%);
+}
+#span-text-visual {
+  color: hsla(234, 85%, 45%);
+}
+#span-text-memory {
+  color: hsl(39, 100%, 56%);
+}
+#span-text-verbal {
+  color: hsl(166, 100%, 37%);
+}
+.span-text {
+  font-size: 1.3rem;
+  color: black;
+}
+#Continue {
+  background-color: rgb(1, 1, 45);
+  width: 80%;
+  min-height: 8vh;
+  border-radius: 30px;
+  color: white;
+  font-size: 1em;
+  font-weight: 300;
+  margin-left: 2rem;
+}
+h3 {
+  margin: 0;
+}
+#Continue:active {
+  background-color: hsl(234, 85%, 45%);
+}
+@media only screen and (min-width: 600px) {
+  .main_components {
+    flex-direction: row;
+    width: 60%;
+    margin-top: 10%;
+    justify-content: center;
+    background-color: white;
+    border-radius: 20px;
+  }
+  .cardComponent,
+  .Score-Companent {
+    border-radius: 20px;
+    min-height: 60vh;
+    width: 50%;
+  }
+  .cardComponent {
+    background-color: azure;
+    border-bottom-left-radius: 0%;
+    align-items: center;
+  }
+  .card {
+    width: 80%;
+  }
+  #Continue {
+    margin-left: 0%;
+  }
+}
