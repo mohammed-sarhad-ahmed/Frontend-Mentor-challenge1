@@ -78,7 +78,7 @@ body {
 
 .card {
   width: 100%;
-  min-height: 8vh;
+  min-height: 5vh;
   display: flex;
   border-radius: 20px;
   justify-content: space-between;
