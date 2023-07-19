@@ -64,8 +64,10 @@ body {
   font-size: 1.5rem;
 }
 #paragraph {
-  max-width: 30ch;
+  max-width: 25ch;
+  text-align: center;
 }
+
 .cardComponent {
   min-height: 60vh;
   width: 70%;
