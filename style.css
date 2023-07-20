@@ -152,7 +152,7 @@ h3 {
     flex-basis: auto;
     align-items: flex-end;
     align-items: stretch;
-    max-height: 47vh;
+    min-height: 47vh;
   }
   .cardComponent,
   .Score-Companent {
