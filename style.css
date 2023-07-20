@@ -42,8 +42,8 @@ body {
   border-radius: 50%;
   background-color: hsla(256, 72%, 46%, 1);
   border: solid 1px hsl(241, 81%, 54%);
-  height: 12rem;
-  width: 12rem;
+  height: 7rem;
+  width: 7rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -139,22 +139,21 @@ h3 {
 @media only screen and (min-width: 700px) {
   .main_components {
     flex-direction: row;
-    width: 40%;
+    width: 60%;
     margin-top: 20%;
     justify-content: center;
     background-color: white;
     border-radius: 20px;
     flex-grow: 0;
     flex-basis: auto;
+    align-items: flex-end;
     align-items: stretch;
-    min-height: 55vh;
   }
   .cardComponent,
   .Score-Companent {
     border-radius: 20px;
     width: 50%;
-    flex: 1;
-    padding-bottom: 2vh;
+    padding-bottom: 4%;
   }
   .cardComponent {
     background-color: white;
