@@ -50,7 +50,7 @@ body {
   justify-content: center;
 }
 .result {
-  font-size: 1em;
+  font-size: 2em;
   color: hsla(0, 2%, 76%);
 }
 #bignumber {
@@ -59,10 +59,9 @@ body {
 }
 .hundred {
   color: rgb(136, 135, 135);
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 #Great {
-  margin-top: 0.3rem;
   color: white;
   font-size: 2rem;
 }
