@@ -9,6 +9,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: rgb(233, 232, 232);
+  box-sizing: border-box;
 }
 .attribution {
   font-size: 11px;
@@ -127,6 +128,7 @@ body {
   font-size: 1em;
   font-weight: 300;
   margin-left: 2rem;
+  padding: 4%;
 }
 h3 {
   margin: 0;
@@ -138,7 +140,7 @@ h3 {
   .main_components {
     flex-direction: row;
     width: 60%;
-    margin-top: 15%;
+    margin-top: 20%;
     justify-content: center;
     background-color: white;
     border-radius: 20px;
@@ -149,6 +151,7 @@ h3 {
   .Score-Companent {
     border-radius: 20px;
     width: 50%;
+    padding-bottom: 10vh;
   }
   .cardComponent {
     flex-grow: 0;
