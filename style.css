@@ -42,8 +42,8 @@ body {
   border-radius: 50%;
   background-color: hsla(256, 72%, 46%, 1);
   border: solid 1px hsl(241, 81%, 54%);
-  min-height: 10rem;
   min-width: 10rem;
+  min-height: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -137,6 +137,10 @@ h3 {
   background-color: hsl(234, 85%, 45%);
 }
 @media only screen and (min-width: 700px) {
+  h3,
+  #Continue {
+    margin: 1rem;
+  }
   .main_components {
     flex-direction: row;
     width: 50%;
@@ -148,7 +152,6 @@ h3 {
     flex-basis: auto;
     align-items: flex-end;
     align-items: stretch;
-    min-height:47vh;
   }
   .cardComponent,
   .Score-Companent {
