@@ -42,8 +42,8 @@ body {
   border-radius: 50%;
   background-color: hsla(256, 72%, 46%, 1);
   border: solid 1px hsl(241, 81%, 54%);
-  max-height: 10rem;
-  max-width: 10rem;
+  min-height: 10rem;
+  min-width: 10rem;
   display: flex;
   flex-direction: column;
   align-items: center;
