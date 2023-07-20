@@ -136,7 +136,7 @@ h3 {
 #Continue:active {
   background-color: hsl(234, 85%, 45%);
 }
-@media only screen and (min-width: 700px) {
+@media only screen and (min-width: 600px) {
   
   h3,
   #Continue {
